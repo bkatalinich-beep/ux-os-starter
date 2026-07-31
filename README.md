@@ -15,6 +15,10 @@ You do not need any special tooling. Markdown files in a folder work fine on the
 
 Copy this folder, rename it for yourself, and spend an afternoon on three things. Write down the last consequential decision your team made as your first registry entry, even if it happened weeks ago. Create one initiative folder for the biggest thing currently in flight and fill in its brief. Then jot two or three paragraphs of stable context into the context library. That is enough; the system grows from use, and a thin version you actually maintain beats a complete one you abandon.
 
+## Using it with an AI assistant
+
+The kit ships with a skill at [.claude/skills/log-decision/](.claude/skills/log-decision/SKILL.md) that Claude Code picks up automatically when you open the folder. Paste your meeting notes or a Slack thread and ask it to log what was decided; it extracts the entry in the registry format, holds the quality bar on each field (it will push back on a vague revisit clause instead of writing a useless one), and skips things that were discussed without being settled. It can also scan the registry and flag entries whose revisit conditions look triggered. If you use a different assistant, the SKILL.md file reads as plain instructions you can hand it.
+
 ## One rule that matters
 
 Keep anything about individual people's performance, 1:1 notes, or unresolved sensitive conversations out of folders you might ever share. If you want to keep people notes at all, give them their own clearly private home and never mix them into initiative folders.
