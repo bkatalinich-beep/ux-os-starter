@@ -1,4 +1,4 @@
-# PD-OS starter
+# UX-OS starter
 
 A lightweight operating system for design leadership work: a plain folder of markdown files where your decisions, initiative context, and team knowledge accumulate in one place. The pattern is adapted from the PM-OS idea that has been circulating in product circles (Aakash Gupta's writeup is at news.aakashg.com/p/pm-os), trimmed down to the pieces that earn their keep for a design manager.
 
